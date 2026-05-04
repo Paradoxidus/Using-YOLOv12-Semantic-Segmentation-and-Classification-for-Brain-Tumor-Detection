@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Glioma', 'Meningioma', 'Pituitary']
+
+roboflow:
+  workspace: thetaspace-llc
+  project: ai-2-machine-project-zdhif
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thetaspace-llc/ai-2-machine-project-zdhif/dataset/3
